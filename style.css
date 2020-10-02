@@ -1,6 +1,9 @@
 *{
     font-family: sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     background-color: cadetblue!important;
     font-weight: 600;
