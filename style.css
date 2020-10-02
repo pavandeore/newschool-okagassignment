@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: cadetblue!important;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-size: 200%;
+}
+.message{
+    animation-name: message-animation;
+    animation-duration: 2.5s;
+}
+@keyframes message-animation{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
